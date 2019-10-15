@@ -1,3 +1,4 @@
-# rez-htoa
+rez-htoa
+===
 
 Rez build configuration for HtoA.
