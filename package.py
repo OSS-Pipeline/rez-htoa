@@ -30,7 +30,6 @@ uuid = "htoa-{version}".format(version=str(version))
 
 def commands():
     env.HOUDINI_PATH.prepend("{root}")
-    env.HTOA.set("{root}")
 
     # Helper environment variables.
     env.HTOA_LIBRARY_PATH.set("{root}/dso")
