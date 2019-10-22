@@ -39,8 +39,8 @@ mkdir -p ${EXTRACT_PATH}
 
 # We extract the content of the .run file in a manner that it does not ask for explicit user input.
 ${HTOA_URL} \
-    --accept-license \
-    --extract-to ${EXTRACT_PATH}
+    --extract-to ${EXTRACT_PATH} \
+    --accept-license
 
 # We copy the necessary files to the install directory.
 cp -R ${EXTRACT_PATH}/htoa-${HTOA_VERSION}_r48c4031_houdini-${REZ_HOUDINI_VERSION}/* ${INSTALL_PATH}
